@@ -1,0 +1,212 @@
+/* CSS reset start */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+a{
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* CSS reset end */
+
+/* Option 1 start */
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#cube1 {
+    background-color: rgb(0, 38, 255);
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+#cube2 {
+    background-color: rgb(28, 62, 255);
+    width: 380px;
+    height: 380px;
+    margin-top: -190px;
+    margin-left: -190px;
+}
+
+#cube3 {
+    background-color: rgb(47, 79, 255);
+    width: 360px;
+    height: 360px;
+    margin-top: -180px;
+    margin-left: -180px;
+}
+
+#cube4 {
+    background-color: rgb(71, 98, 255);
+    width: 340px;
+    height: 340px;
+    margin-top: -170px;
+    margin-left: -170px;
+}
+
+#cube5 {
+    background-color: rgb(100, 123, 255);
+    width: 320px;
+    height: 320px;
+    margin-top: -160px;
+    margin-left: -160px;
+}
+
+#cube6 {
+    background-color: rgb(130, 149, 255);
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+#cube7 {
+    background-color: rgb(158, 172, 255);
+    width: 280px;
+    height: 280px;
+    margin-top: -140px;
+    margin-left: -140px;
+}
+
+#cube8 {
+    background-color: rgb(176, 188, 255);
+    width: 260px;
+    height: 260px;
+    margin-top: -130px;
+    margin-left: -130px;
+}
+
+#cube9 {
+    background-color: rgb(200, 209, 255);
+    width: 240px;
+    height: 240px;
+    margin-top: -120px;
+    margin-left: -120px;
+}
+
+#cube10 {
+    background-color: rgb(231, 234, 255);
+    width: 220px;
+    height: 220px;
+    margin-top: -110px;
+    margin-left: -110px;
+}
+
+/* Option 1 end */
+
+/* Option 2 start 
+
+div {
+    background-color: rgb(0, 38, 255);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+div > div {
+    background-color: rgb(28, 62, 255);
+    width: 380px;
+    height: 380px;
+    margin-top: -190px;
+    margin-left: -190px;
+}
+
+div > div > div {
+    background-color: rgb(47, 79, 255);
+    width: 360px;
+    height: 360px;
+    margin-top: -180px;
+    margin-left: -180px;
+}
+
+div > div > div > div {
+    background-color: rgb(71, 98, 255);
+    width: 340px;
+    height: 340px;
+    margin-top: -170px;
+    margin-left: -170px;
+}
+
+div > div > div > div > div {
+    background-color: rgb(100, 123, 255);
+    width: 320px;
+    height: 320px;
+    margin-top: -160px;
+    margin-left: -160px;
+}
+
+div > div > div > div > div > div {
+    background-color: rgb(130, 149, 255);
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+div > div > div > div > div > div > div {
+    background-color: rgb(158, 172, 255);
+    width: 280px;
+    height: 280px;
+    margin-top: -140px;
+    margin-left: -140px;
+}
+
+div > div > div > div > div > div > div > div {
+    background-color: rgb(176, 188, 255);
+    width: 260px;
+    height: 260px;
+    margin-top: -130px;
+    margin-left: -130px;
+}
+
+div > div > div > div > div > div > div > div > div {
+    background-color: rgb(200, 209, 255);
+    width: 240px;
+    height: 240px;
+    margin-top: -120px;
+    margin-left: -120px;
+}
+
+div > div > div > div > div > div > div > div > div > div {
+    background-color: rgb(231, 234, 255);
+    width: 220px;
+    height: 220px;
+    margin-top: -110px;
+    margin-left: -110px;
+}
+
+ Option 2 end */
