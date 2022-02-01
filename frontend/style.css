@@ -34,176 +34,145 @@ select {
 
 /* CSS reset end */
 
-/* Option 1 start */
-
-div {
-    margin: auto;
-}
-
-#cube1 {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: rgb(0, 38, 255);
-    width: 400px;
-    height: 400px;
-}
-
-#cube2 {
-    background-color: rgb(28, 62, 255);
-    width: 380px;
-    height: 380px;
-}
-
-#cube3 {
-    background-color: rgb(47, 79, 255);
-    width: 360px;
-    height: 360px;
-}
-
-#cube4 {
-    background-color: rgb(71, 98, 255);
-    width: 340px;
-    height: 340px;
-}
-
-#cube5 {
-    background-color: rgb(100, 123, 255);
-    width: 320px;
-    height: 320px;
-}
-
-#cube6 {
-    background-color: rgb(130, 149, 255);
-    width: 300px;
-    height: 300px;
-}
-
-#cube7 {
-    background-color: rgb(158, 172, 255);
-    width: 280px;
-    height: 280px;
-}
-
-#cube8 {
-    background-color: rgb(176, 188, 255);
-    width: 260px;
-    height: 260px;
-}
-
-#cube9 {
-    background-color: rgb(200, 209, 255);
-    width: 240px;
-    height: 240px;
-}
-
-#cube10 {
-    background-color: rgb(231, 234, 255);
-    width: 220px;
-    height: 220px;
-}
-
 section {
-    position: relative;
-    width: 100%;
     height: 100vh;
-    border-bottom: 1px solid black;
+    background-image: url(https://cdn.wallpapersafari.com/55/73/ghY4rc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-section button {
+#section1 form {
     position: absolute;
-    right: 30px;
-    bottom: 30px;
-    width: 200px;
-    height: 60px;
-    background-color: rgb(200, 130, 38);
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: rgb(156, 76, 89);
 }
 
-/* Option 1 end */
+#section1 input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    border-bottom: 2px solid black;
+    background-color: rgb(173, 114, 124);
+}
 
-/* Option 2 start 
+#firstLabel {
+    font-size: 22px;
+    font-weight: bold;
+    position: inherit;
+    top: 20%;
+    left: 50%;
+    margin-left: -122.5px;
+}
 
-div {
-    background-color: rgb(0, 38, 255);
-    width: 400px;
-    height: 400px;
-    position: absolute;
+#firstInput {
+    position: inherit;
+    top: 30%;
+}
+
+#secondLabel {
+    font-size: 22px;
+    font-weight: bold;
+    position: inherit;
     top: 50%;
     left: 50%;
-    margin-top: -200px;
-    margin-left: -200px;
-}
-
-div > div {
-    background-color: rgb(28, 62, 255);
-    width: 380px;
-    height: 380px;
-    margin-top: -190px;
-    margin-left: -190px;
-}
-
-div > div > div {
-    background-color: rgb(47, 79, 255);
-    width: 360px;
-    height: 360px;
-    margin-top: -180px;
-    margin-left: -180px;
-}
-
-div > div > div > div {
-    background-color: rgb(71, 98, 255);
-    width: 340px;
-    height: 340px;
-    margin-top: -170px;
-    margin-left: -170px;
-}
-
-div > div > div > div > div {
-    background-color: rgb(100, 123, 255);
-    width: 320px;
-    height: 320px;
-    margin-top: -160px;
-    margin-left: -160px;
-}
-
-div > div > div > div > div > div {
-    background-color: rgb(130, 149, 255);
-    width: 300px;
-    height: 300px;
-    margin-top: -150px;
-    margin-left: -150px;
-}
-
-div > div > div > div > div > div > div {
-    background-color: rgb(158, 172, 255);
-    width: 280px;
-    height: 280px;
-    margin-top: -140px;
     margin-left: -140px;
 }
 
-div > div > div > div > div > div > div > div {
-    background-color: rgb(176, 188, 255);
-    width: 260px;
-    height: 260px;
-    margin-top: -130px;
-    margin-left: -130px;
+#secondInput {
+    position: inherit;
+    top: 60%;
 }
 
-div > div > div > div > div > div > div > div > div {
-    background-color: rgb(200, 209, 255);
-    width: 240px;
-    height: 240px;
-    margin-top: -120px;
-    margin-left: -120px;
+
+
+#section2 {
+    position: relative;
+    color: #f2e3121f;
+
 }
 
-div > div > div > div > div > div > div > div > div > div {
-    background-color: rgb(231, 234, 255);
-    width: 220px;
-    height: 220px;
-    margin-top: -110px;
-    margin-left: -110px;
+#topLeft, #topRight, #bottomLeft, #bottomRight, #middle {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 5px dashed white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(156, 76, 89);
+    transition: 0.5s ease;
 }
 
- Option 2 end */
+#topLeft:hover, #topRight:hover, #bottomLeft:hover, #bottomRight:hover, #middle:hover {
+    background-color: rgb(124, 50, 62);
+}
+
+#topLeft {
+    left: 0;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#topRight {
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#bottomLeft {
+    left: 0;
+    bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#bottomRight {
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#middle {
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#section3 {
+    min-height: unset;
+}
+
+/* #section3 img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+} */
+
+#h1Txt {
+    /* position: absolute; */
+    font-size: 150px;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+#longTxt {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
