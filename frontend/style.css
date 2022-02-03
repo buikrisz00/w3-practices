@@ -38,8 +38,28 @@ ol, ul, li {
 
 /* CSS reset end */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Dongle', sans-serif;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    z-index: 99;
+    background-color: #596869;
+}
+
+header a {
+    padding: 10px 40px;
+    font-size: 30px;
 }
 
 section {
