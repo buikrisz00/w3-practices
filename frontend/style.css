@@ -32,147 +32,158 @@ select {
     border-radius: 0;
 }
 
+ol, ul, li {
+    list-style:none;display:block;
+}
+
 /* CSS reset end */
 
+body {
+    font-family: 'Dongle', sans-serif;
+}
+
 section {
+    min-height: 100vh;
+} 
+
+/* Welcome section start */
+
+#welcome {
     height: 100vh;
-    background-image: url(https://cdn.wallpapersafari.com/55/73/ghY4rc.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    overflow: hidden;
 }
 
-#section1 form {
+#welcome img {
+    display: block;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -250px;
-    margin-top: -250px;
-    height: 500px;
-    width: 500px;
-    border: 2px solid black;
-    background-color: rgb(156, 76, 89);
-}
-
-#section1 input {
+    top: 0;
+    right: 0;
+    height: 100vh;
     width: 100%;
-    padding: 12px 20px;
-    margin: 12px 0;
-    border-bottom: 2px solid black;
-    background-color: rgb(173, 114, 124);
+    object-fit: cover;
+    z-index: -1;
 }
 
-#firstLabel {
-    font-size: 22px;
-    font-weight: bold;
-    position: inherit;
-    top: 20%;
-    left: 50%;
-    margin-left: -122.5px;
-}
-
-#firstInput {
-    position: inherit;
-    top: 30%;
-}
-
-#secondLabel {
-    font-size: 22px;
-    font-weight: bold;
-    position: inherit;
-    top: 50%;
-    left: 50%;
-    margin-left: -140px;
-}
-
-#secondInput {
-    position: inherit;
-    top: 60%;
-}
-
-
-
-#section2 {
-    position: relative;
-    color: #f2e3121f;
-
-}
-
-#topLeft, #topRight, #bottomLeft, #bottomRight, #middle {
+#welcome button {
     position: absolute;
-    height: 200px;
     width: 200px;
-    border: 5px dashed white;
-    border-radius: 50%;
-    font-size: 30px;
-    font-weight: 500;
-    background-color: rgb(156, 76, 89);
-    transition: 0.5s ease;
-}
-
-#topLeft:hover, #topRight:hover, #bottomLeft:hover, #bottomRight:hover, #middle:hover {
-    background-color: rgb(124, 50, 62);
-}
-
-#topLeft {
-    left: 0;
-    top: 0;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-#topRight {
-    right: 0;
-    top: 0;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-
-#bottomLeft {
-    left: 0;
-    bottom: 0;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-#bottomRight {
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-#middle {
+    height: 60px;
+    bottom: 0; 
     left: 50%;
-    top: 50%;
-    margin-left: -100px;
-    margin-top: -100px;
+    margin: 40px 0;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    transform: translateX(-50%);
+    background-color: #596869;
+    font-size: 20px;
+    color: #FFF;
 }
 
-#section3 {
+#welcome h1 {
+    margin: 40px;
+    color: #FFF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+
+/* Welcome section end */
+
+/* About section start */
+
+#about {
     min-height: unset;
+    background-color: #c4c8c8;
 }
 
-/* #section3 img {
+#about article{
+    width: 100%;
+    max-width: 400px;
+    padding: 80px 20px;
+    margin: auto;
+}
+
+#about h2 {
+    padding-bottom: 20px;
+}
+
+/* About section end */
+
+/* Services section start */
+
+#services {
+    display: flex;
+    padding: 0px;
+    background-image: url(https://cutewallpaper.org/21/black-smokey-background/Dark-Smoky-Background-Best-Background-Images-HD-Wallpaper.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#services ul {
+    width: 100%;
+    max-width: 800px;
+    padding: 80px 20px;
+    margin: auto;
+    background-color: rgba(95, 95, 95, 0.5);
+    color: #FFF;
+}
+
+#services ul li {
+    padding-bottom: 20px;
+}
+
+#services ul li h2 {
+    letter-spacing: 0.1em;
+}
+
+#services ul li h2, #services ul li p {
+    text-align: center;
+}
+
+/* Services section start */
+
+
+/* Contact section start */
+
+#contact {
+    background-color: #c4c8c8;
+}
+
+#contact form {
+    width: 100%;
+    max-width: 300px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #596869;
+}
+
+#contact input, #contact label {
     display: block;
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-} */
-
-#h1Txt {
-    /* position: absolute; */
-    font-size: 150px;
-    margin: auto;
-    text-align: center;
-    color: black;
 }
 
-#longTxt {
-    font-size: 20px;
-    margin: auto;
-    text-align: center;
-    color: white;
+#contact label {
+    font-size: 22px;
+    padding-bottom: 10px;
 }
+
+#contact input {
+    height: 60px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: #FFF;
+}
+
+#contact button {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #596869;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* Contact section end */
