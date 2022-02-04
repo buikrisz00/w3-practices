@@ -167,13 +167,16 @@ section {
 
 #contact {
     background-color: #c4c8c8;
+    height: 100vh;
 }
 
 #contact form {
     width: 100%;
     max-width: 300px;
+    /* height: 100%;
+    max-height: 400px; */
     padding: 40px 20px;
-    margin: 0 auto;
+    margin: 0 auto;  /* ??? */
     text-align: center;
     border: 3px solid #596869;
 }
